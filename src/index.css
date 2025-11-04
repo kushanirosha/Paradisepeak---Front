@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'KyivTypeTitling';
+    src: url('/src/assets/fonts/KyivTypeTitling.ttf') format('truetype');
+  }
+
+
+
+
