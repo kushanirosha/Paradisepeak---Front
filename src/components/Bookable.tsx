@@ -34,7 +34,7 @@ const Bookable: React.FC = () => {
     return `${symbol}${pkg.price.toFixed(2)}`;
   };
 
-  const getImageUrl = (imagePath?: string) => (imagePath ? `https://backend.colombodivers.lk${imagePath}` : "");
+  const getImageUrl = (imagePath?: string) => (imagePath ? `https://backend.paradisepeaktravels.com${imagePath}` : "");
 
   const getPackageImage = (pkg: Package) =>
     pkg.mainImage ? getImageUrl(pkg.mainImage) : pkg.images && pkg.images.length > 0 ? getImageUrl(pkg.images[0].url) : "";

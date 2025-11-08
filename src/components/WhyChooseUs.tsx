@@ -1,33 +1,34 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaWater, FaShieldAlt, FaUsers, FaFish } from "react-icons/fa";
+import { FaWater, FaShieldAlt, FaUsers, FaFish, FaGlobeAmericas, FaPlaneDeparture } from "react-icons/fa";
 
 const reasons = [
   {
-    icon: <FaWater className="text-blue-600 text-3xl" />,
-    title: "Experienced Instructors",
+    icon: <FaPlaneDeparture className="text-blue-600 text-3xl" />,
+    title: "Expert Travel Planners",
     description:
-      "Our certified instructors have years of experience guiding divers through Sri Lanka’s most scenic underwater sites.",
+      "Our dedicated travel experts curate every journey, ensuring your holiday across Sri Lanka and the Maldives is seamless and unforgettable.",
   },
   {
     icon: <FaShieldAlt className="text-blue-600 text-3xl" />,
-    title: "Safety First Approach",
+    title: "Safety & Comfort Guaranteed",
     description:
-      "We maintain international safety standards and use top-quality equipment to ensure a secure and comfortable experience.",
+      "We prioritize your safety and comfort with trusted transport, reliable accommodations, and 24/7 support throughout your trip.",
   },
   {
     icon: <FaUsers className="text-blue-600 text-3xl" />,
-    title: "Personalized Dive Trips",
+    title: "Tailor-Made Experiences",
     description:
-      "Whether you’re a beginner or expert, we tailor each dive to match your skill level and interests.",
+      "From adventure seekers to luxury travelers, we design tours that match your interests, pace, and style.",
   },
   {
-    icon: <FaFish className="text-blue-600 text-3xl" />,
-    title: "Rich Marine Biodiversity",
+    icon: <FaGlobeAmericas className="text-blue-600 text-3xl" />,
+    title: "Diverse Destinations",
     description:
-      "Explore coral reefs, shipwrecks, and vibrant marine life that make every dive with us truly unforgettable.",
+      "Discover pristine beaches, lush highlands, cultural landmarks, and hidden gems across Sri Lanka and the Maldives.",
   },
 ];
+
 
 const WhyChooseUs: React.FC = () => (
   <section className="py-24 bg-white">
@@ -36,7 +37,7 @@ const WhyChooseUs: React.FC = () => (
         Why Choose Paradisepeak Travels for Your Next Travel Adventure?
       </h2>
       <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-        With a commitment to professionalism, safety, and marine conservation, we make every dive a remarkable journey beneath the waves.
+        With a commitment to professionalism, comfort, and unforgettable experiences, ParadisePeak Travels ensures every journey is a remarkable adventure across Sri Lanka and the Maldives.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-left">

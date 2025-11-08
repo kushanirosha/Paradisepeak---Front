@@ -34,7 +34,7 @@ const Packages = () => {
           setPackages(parsed);
           setLoading(false);
         }
-      } catch {}
+      } catch { }
     }
 
     const useSilent = Boolean(cached);
@@ -151,12 +151,13 @@ const Packages = () => {
     <div
       key={pkg._id}
       onClick={() => handlePackageClick(pkg)}
-      className="bg-white shadow-md overflow-hidden cursor-pointer w-full sm:w-[calc(50%-12px)] lg:w-[calc(33%-16px)] mb-6"
+      className="bg-white shadow-md overflow-hidden cursor-pointer w-full sm:w-[calc(50%-12px)] lg:w-[calc(33%-16px)] mb-6 
+               transform transition duration-300 hover:scale-105 hover:shadow-xl"
     >
       <img
         src={
           pkg.mainImage
-            ? `https://backend.colombodivers.lk${pkg.mainImage}`
+            ? `https://backend.paradisepeaktravels.com${pkg.mainImage}`
             : "https://theportuguesetraveler.com/wp-content/uploads/2024/11/nine-arches-bridge-train-sri-lanka-53.jpg.webp"
         }
         alt={pkg.title}
@@ -189,6 +190,7 @@ const Packages = () => {
     </div>
   );
 
+
   return (
     <>
       <Navbar />
@@ -197,7 +199,7 @@ const Packages = () => {
           Tour Packages
         </h1>
         <p className="text-center text-gray-700 mt-2 mb-8 text-sm sm:text-base">
-          Choose from our carefully curated experiences. <br/>Enjoy expert-friendly advice and hassle-free booking for multi-day tours and unique experiences.
+          Choose from our carefully curated experiences. <br />Enjoy expert-friendly advice and hassle-free booking for multi-day tours and unique experiences.
         </p>
 
         {/* Tabs */}
@@ -206,11 +208,10 @@ const Packages = () => {
             <button
               key={tab}
               onClick={() => selectTab(tab)}
-              className={`px-4 py-2 font-semibold w-full sm:w-auto transition ${
-                activeTab === tab
-                  ? "bg-[#000769] text-white"
-                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-              }`}
+              className={`px-4 py-2 font-semibold w-full sm:w-auto transition ${activeTab === tab
+                ? "bg-[#000769] text-white"
+                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
             >
               {tab.replace(" Packages", "")}
             </button>
@@ -220,21 +221,33 @@ const Packages = () => {
         {/* Packages by type */}
         {multiDayTours.length > 0 && (
           <>
-            <h2 className="text-xl sm:text-2xl font-bold text-center my-6">MULTI DAY TOURS</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-center my-2 mt-14">MULTI DAY TOURS</h2>
+            <p className="text-center text-gray-600 mb-4 max-w-xl mx-auto">
+              Explore Sri Lanka and the Maldives over several days with carefully curated itineraries, including cultural landmarks, scenic landscapes, and relaxing beach escapes.
+            </p>
+            <hr className="h-1 bg-blue-900 border-0 my-8" />
             <div className="flex flex-wrap gap-4 justify-center">{multiDayTours.map(renderPackageCard)}</div>
           </>
         )}
 
         {dayTrips.length > 0 && (
           <>
-            <h2 className="text-xl sm:text-2xl font-bold text-center my-6">DAY TRIPS</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-center my-2 mt-14">DAY TRIPS</h2>
+            <p className="text-center text-gray-600 mb-4 max-w-xl mx-auto">
+              Perfect for a quick getaway, our day trips offer a taste of adventure, sightseeing, and fun experiences without needing overnight stays.
+            </p>
+            <hr className="h-1 bg-blue-900 border-0 my-8" />
             <div className="flex flex-wrap gap-4 justify-center">{dayTrips.map(renderPackageCard)}</div>
           </>
         )}
 
         {experiences.length > 0 && (
           <>
-            <h2 className="text-xl sm:text-2xl font-bold text-center my-6">EXPERIENCES</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-center my-2 mt-14">EXPERIENCES</h2>
+            <p className="text-center text-gray-600 mb-4 max-w-xl mx-auto">
+              Dive into unique activities, local cultural encounters, and memorable adventures designed to make your travel truly unforgettable.
+            </p>
+            <hr className="h-1 bg-blue-900 border-0 my-8" />
             <div className="flex flex-wrap gap-4 justify-center">{experiences.map(renderPackageCard)}</div>
           </>
         )}

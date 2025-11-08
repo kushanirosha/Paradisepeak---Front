@@ -20,7 +20,7 @@ type Booking = {
 };
 
 const BookingHistory: React.FC = () => {
-  const resources = "https://backend.colombodivers.lk";
+  const resources = "https://backend.paradisepeaktravels.com";
 
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [filteredBookings, setFilteredBookings] = useState<Booking[]>([]);

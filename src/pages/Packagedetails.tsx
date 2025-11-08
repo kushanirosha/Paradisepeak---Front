@@ -4,6 +4,7 @@ import Footer from "../Layout/Footer";
 import { useNavigate, useParams } from "react-router-dom";
 import { packageService, Package } from "../services/packageService";
 import ApiService from "../services/ApiService";
+import logo from "../assets/logo.png";
 
 const PackageDetails = () => {
   useEffect(() => window.scrollTo(0, 0), []);
@@ -63,7 +64,7 @@ const PackageDetails = () => {
   };
 
   const getImageUrl = (path?: string) =>
-    path ? `https://backend.colombodivers.lk${path}` : null;
+    path ? `https://backend.paradisepeaktravels.com${path}` : null;
 
   const getAllImages = () => {
     if (!packageData) return [];
@@ -86,6 +87,8 @@ const PackageDetails = () => {
   const formatPrice = (pkg: Package) =>
     `${pkg.currency === "USD" ? "US$" : "Rs."}${pkg.price.toFixed(2)}`;
 
+  const [isPaymentLoading, setIsPaymentLoading] = useState(false);
+
   const handleBooking = async () => {
     if (!selectedDate) {
       alert("Please select a date before booking.");
@@ -100,11 +103,14 @@ const PackageDetails = () => {
       return;
     }
 
+    setIsPaymentLoading(true); // ✅ Start loading overlay
+
     let userData;
     try {
       userData = await ApiService.getUserDataById();
     } catch {
       alert("Error fetching user data. Please re-login.");
+      setIsPaymentLoading(false);
       return;
     }
 
@@ -128,8 +134,11 @@ const PackageDetails = () => {
       navigate("/bookinghistory");
     } catch {
       alert("❌ Booking failed. Please try again.");
+    } finally {
+      setIsPaymentLoading(false); // ✅ End loading overlay
     }
   };
+
 
   if (loading)
     return (
@@ -166,7 +175,7 @@ const PackageDetails = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-6xl mx-auto bg-white shadow-lg p-6 mt-28">
+      <div className="max-w-6xl mx-auto bg-white shadow-lg p-6 my-28">
         <button
           onClick={() => navigate(-1)}
           className="mb-4 px-4 py-2 bg-gray-100 hover:bg-gray-200"
@@ -253,8 +262,8 @@ const PackageDetails = () => {
               <h3 className="font-semibold">Cancellation Policy</h3>
               <p className="text-gray-600 mt-1">
                 Please contact{" "}
-                <a href="tel:+94777367776" className="text-blue-900 font-medium hover:underline">
-                  +94 77 736 7776
+                <a href="tel:+94773581241" className="text-blue-900 font-medium hover:underline">
+                  +94 77 358 1241
                 </a>{" "}
                 for cancellation policy details.{" "}
                 <a
@@ -331,8 +340,8 @@ const PackageDetails = () => {
                       key={day}
                       onClick={() => setSelectedDate(dateString)}
                       className={`p-2 text-xs border ${selected
-                          ? "bg-blue-900 text-white"
-                          : "bg-white text-gray-700 hover:bg-blue-50"
+                        ? "bg-blue-900 text-white"
+                        : "bg-white text-gray-700 hover:bg-blue-50"
                         }`}
                     >
                       {day}
@@ -420,7 +429,7 @@ const PackageDetails = () => {
       {/* PAYMENT MODAL */}
       {showPaymentModal && (
         <div className="fixed inset-0 bg-black/70 bg-opacity-60 flex items-center justify-center z-[60]">
-          <div className="relative bg-white w-[500px]  p-6 shadow-2xl">
+          <div className="relative bg-white sm:w-[500px] max-h-[90vh] lg:w-1/2 overflow-y-auto p-6 shadow-2xl">
             <button
               onClick={() => setShowPaymentModal(false)}
               className="absolute top-3 right-3 text-gray-600 text-2xl"
@@ -433,13 +442,36 @@ const PackageDetails = () => {
             </h2>
 
             <div className="text-sm text-gray-800 mb-4 space-y-1">
-              <p><b>Bank Name:</b> People's Bank</p>
-              <p><b>Account Name:</b> Travel Lanka Pvt Ltd</p>
-              <p><b>Account Number:</b> 123-456-789</p>
-              <p><b>Branch:</b> Colombo Main Branch</p>
-              <p><b>SWIFT Code:</b> PSBLKLXXXX</p>
+              <p><b>Bank Name:</b> Bank of Ceylon</p>
+              <p><b>Account Name:</b> D M S P MADUSANKA</p>
+              <p><b>Account Number:</b> 7010757</p>
+              <p><b>Branch:</b> Athurugiriya Branch</p>
+              <p><b>SWIFT Code:</b> BCEYLKLXXXX</p>
             </div>
 
+            {/* ✅ Trust & Process Section */}
+            <div className="bg-blue-50 border border-blue-100 p-4 rounded-lg mb-5 text-sm text-gray-700">
+              <h3 className="font-semibold text-blue-900 mb-2">Our Secure Booking Process</h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Upload your payment receipt — full or half payment accepted.</li>
+                <li>If partial payment is made, the remaining amount must be paid on arrival before the trip starts.</li>
+                <li>After uploading, our team will verify your payment and send a confirmation email.</li>
+                <li>You can edit your package within <b>24 hours after booking confirmation</b> through your user dashboard.</li>
+              </ul>
+              <p className="text-xs text-gray-500 mt-3">
+                By proceeding, you agree to our{" "}
+                <a
+                  href="/terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-900 underline font-medium"
+                >
+                  Terms & Conditions
+                </a>.
+              </p>
+            </div>
+
+            {/* Upload Slip */}
             <div className="mb-5">
               <label className="font-semibold block mb-2">Upload Payment Slip</label>
               <label
@@ -477,12 +509,13 @@ const PackageDetails = () => {
               </label>
             </div>
 
+            {/* Confirm Button */}
             <button
               onClick={handleBooking}
               disabled={!paymentSlip}
               className={`w-full py-3 font-semibold ${paymentSlip
-                  ? "bg-blue-900 text-white hover:bg-blue-800"
-                  : "bg-gray-300 text-gray-600 cursor-not-allowed"
+                ? "bg-blue-900 text-white hover:bg-blue-800"
+                : "bg-gray-300 text-gray-600 cursor-not-allowed"
                 }`}
             >
               Confirm Booking
@@ -490,6 +523,18 @@ const PackageDetails = () => {
           </div>
         </div>
       )}
+      {/* PAYMENT LOADING OVERLAY */}
+      {isPaymentLoading && (
+        <div className="fixed inset-0 bg-black/70 bg-opacity-70 z-[70] flex flex-col items-center justify-center text-white">
+          <img
+            src={logo} // ✅ replace with your actual logo path
+            alt="Paradise Peak Travels"
+            className="w-24 h-24 mb-6 animate-pulse"
+          />
+          <p className="text-xl font-semibold">Payment is proceeding...</p>
+        </div>
+      )}
+
 
       <Footer />
     </>

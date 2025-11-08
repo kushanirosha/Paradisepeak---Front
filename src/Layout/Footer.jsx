@@ -10,7 +10,7 @@ const Footer = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://backend.colombodivers.lk/api/v1/subscribers",
+        "https://backend.paradisepeaktravels.com/api/v1/subscribers",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -54,11 +54,11 @@ const Footer = () => {
               Contact Info
             </h3>
             <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><a href="mailto:info@colombodivers.lk" className="hover:underline">Email: info@colombodivers.lk</a></li>
-              <li><a href="tel:+94777367776" className="hover:underline">Phone: +94 77 736 7776</a></li>
+              <li><a href="mailto:info@paradisepeaktravels.com" className="hover:underline">Email: info@paradisepeaktravels.com</a></li>
+              <li><a href="tel:+94773581241" className="hover:underline">Phone: +94 77 358 1241</a></li>
               <li>
                 <a href="https://www.google.com/maps?q=Maldives,+Sri+Lanka" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  Address: Topaz Beach Hotel, 21 Porutota Road, Maldives, Sri Lanka
+                  Address: Green house, Maafushi, Maldives.
                 </a>
               </li>
             </ul>
@@ -111,8 +111,8 @@ const Footer = () => {
             Paradisepeak Travels (Pvt) Ltd
           </div>
           <div className="flex space-x-3 text-lg sm:text-xl">
-            <a href="https://www.facebook.com/share/1A2w7AJzej/?mibextid=wwXIfr" className="text-blue-900 hover:text-blue-700" aria-label="Facebook"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/colombodivers?igsh=MXV2MjlvZWw5bmZtOQ==" className="text-blue-900 hover:text-blue-700" aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr" className="text-blue-900 hover:text-blue-700" aria-label="Facebook"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/paradisepeaktravels?igsh=MTNoN3A3Y2gweG5uaQ%3D%3D&utm_source=qr" className="text-blue-900 hover:text-blue-700" aria-label="Instagram"><FaInstagram /></a>
             {/* <a href="#" className="text-blue-900 hover:text-blue-700" aria-label="YouTube"><FaYoutube /></a> */}
           </div>
         </div>

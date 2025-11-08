@@ -81,14 +81,13 @@ const Gallery = () => {
       <div className="mt-36 max-w-7xl mx-auto px-6 text-center">
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-[#120075] mb-4">
-            Explore the Underwater World
+            Explore the Wonders of Sri Lanka & Maldives
           </h1>
           <p className="text-md sm:text-lg text-gray-600 mb-0">
-            Dive into the crystal-clear waters of Maldives and Sri Lanka
+           Embark on unforgettable journeys through the pristine beaches, turquoise waters, and lush landscapes of Sri Lanka and the Maldives.
           </p>
           <p className="text-md sm:text-md text-gray-500">
-            Discover vibrant coral reefs, exotic marine life, and unforgettable
-            Travel adventures along Sri Lanka’s most beautiful coasts.
+            Discover vibrant coastal scenery, exotic wildlife, and unique travel experiences that create memories to last a lifetime.
           </p>
         </div>
 
@@ -116,7 +115,7 @@ const Gallery = () => {
           {filteredItems.map((item, idx) => {
             const imgSrc = item.image?.startsWith("http")
               ? item.image
-              : `https://backend.colombodivers.lk${item.image}`;
+              : `https://backend.paradisepeaktravels.com${item.image}`;
             return (
               <div
                 key={idx}
@@ -149,7 +148,7 @@ const Gallery = () => {
             src={
               filteredItems[selectedIndex].image?.startsWith("http")
                 ? filteredItems[selectedIndex].image
-                : `https://backend.colombodivers.lk${filteredItems[selectedIndex].image}`
+                : `https://backend.paradisepeaktravels.com${filteredItems[selectedIndex].image}`
             }
             alt="fullscreen"
             className="max-h-[80vh] max-w-[90vw] object-contain mb-4 border-4 border-white -lg"
@@ -164,7 +163,7 @@ const Gallery = () => {
                 src={
                   item.image?.startsWith("http")
                     ? item.image
-                    : `https://backend.colombodivers.lk${item.image}`
+                    : `https://backend.paradisepeaktravels.com${item.image}`
                 }
                 alt={item.title}
                 className={`w-24 h-16 sm:w-28 sm:h-20 object-cover cursor-pointer border-2 -md ${

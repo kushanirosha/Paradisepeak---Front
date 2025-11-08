@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Explore the Deep with{" "}
+          Discover Paradise with{" "}
           <span className="text-cyan-400">Paradisepeak Travels</span>
         </motion.h1>
         <motion.p
@@ -58,8 +58,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Dive into Sri Lanka’s most stunning underwater worlds — from coral gardens to
-          hidden shipwrecks. Discover your next adventure beneath the surface.
+          Embark on unforgettable journeys across Sri Lanka and the Maldives — from golden beaches and lush highlands to crystal-clear lagoons and island escapes. Experience curated tour packages designed for every traveler seeking relaxation, adventure, and pure tropical bliss.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -72,7 +71,7 @@ const HeroSection: React.FC = () => {
           <button
             onClick={() => navigate("/packages")}
             className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 font-semibold text-white transition-all duration-300 shadow-lg">
-            Book Your Dive
+            Book Your Journey
           </button>
           <button
             onClick={() => navigate("/about")}

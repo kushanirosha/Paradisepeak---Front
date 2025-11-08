@@ -27,18 +27,18 @@ function About() {
   const slides = useMemo(
     () => [
       {
-        title: "Shipwreck & Wreck Exploration",
-        desc: "Dive into the history beneath the waves — explore cargo ship and WWII wrecks off Maldives and Sri Lanka, now alive with coral and marine life.",
+        title: "Maldives Luxury Escapes",
+        desc: "Experience pristine beaches, turquoise waters, and overwater villas in the Maldives. Perfect for honeymooners and luxury travelers.",
         img: A1,
       },
       {
-        title: "Coral Reef & Reef Travel",
-        desc: "Swim through vibrant coral gardens teeming with tropical fish, colorful nudibranchs and reef sharks in clear Indian Ocean waters around Sri Lanka. :contentReference[oaicite:1]{index=1}",
+        title: "Cultural Journeys in Sri Lanka",
+        desc: "Discover ancient temples, scenic highlands, and vibrant local traditions on curated tours across Sri Lanka.",
         img: A2,
       },
       {
-        title: "PADI Training & Discovery Dives",
-        desc: "From first breaths underwater to advanced certification — our expert instructors guide you from Neophyte to Pro, in safe, friendly dive‑sites in Maldives & Sri Lanka.",
+        title: "Adventure & Wildlife Tours",
+        desc: "Embark on safari adventures, whale watching, and trekking excursions for unforgettable experiences in nature.",
         img: A3,
       },
     ],
@@ -58,27 +58,27 @@ function About() {
 
   const team = [
     {
-      name: "Mr. Sherik Fernando",
+      name: "Mr. Shanaka",
       role: "Managing Director",
-      img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=1000&auto=format&fit=crop",
+      img: "https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1703/tuktukdesign170300058/73533499-man-user-icon-profil-de-la-personne-avatar-glyph-illustration-vecteur.jpg?ver=6",
       socials: {
-        facebook: "#",
-        instagram: "#",
-        whatsapp: "#",
-        email: "mailto:info@colombodivers.lk",
+        facebook: "https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr",
+        instagram: "https://www.instagram.com/roxshanaka?igsh=MWsxYW02cnphMDM5OQ%3D%3D&utm_source=qr",
+        whatsapp: "https://wa.me/94773581241?text=Hello%20there!%20I%20am%20interested%20in%20your%20Travel%20packages.",
+        email: "mailto:shanaka@paradisepeaktravels.com",
       },
     },
-    {
-      name: "Mr. Vincent Fernando",
-      role: "Founder",
-      img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=1000&auto=format&fit=crop",
-      socials: {
-        facebook: "#",
-        instagram: "#",
-        whatsapp: "#",
-        email: "mailto:info@colombodivers.lk",
-      },
-    },
+    // {
+    //   name: "Mr. Vincent Fernando",
+    //   role: "Founder",
+    //   img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=1000&auto=format&fit=crop",
+    //   socials: {
+    //     facebook: "#",
+    //     instagram: "#",
+    //     whatsapp: "#",
+    //     email: "mailto:info@paradisepeaktravels.com",
+    //   },
+    // },
     // {
     //   name: "Jane Doe",
     //   role: "Dive Instructor",
@@ -87,7 +87,7 @@ function About() {
     //     facebook: "#",
     //     instagram: "#",
     //     whatsapp: "#",
-    //     email: "mailto:info@colombodivers.lk",
+    //     email: "mailto:info@paradisepeaktravels.com",
     //   },
     // },
     // {
@@ -98,7 +98,7 @@ function About() {
     //     facebook: "#",
     //     instagram: "#",
     //     whatsapp: "#",
-    //     email: "mailto:info@colombodivers.lk",
+    //     email: "mailto:info@paradisepeaktravels.com",
     //   },
     // },
   ];
@@ -114,24 +114,17 @@ function About() {
           {/* Left Text Section */}
           <div className="md:max-w-xl">
             <h1 className="text-4xl md:text-5xl text-[#01004b] tracking-tight">
-              Dive into the Heart of Sri Lanka
+              Explore the Wonders of Sri Lanka & Maldives
             </h1>
             <p className="mt-5 text-gray-700 leading-relaxed text-justify">
-              Paradisepeak Travels is the only recreational dive center offering
-              Travel and dive training in Colombo. In addition, Paradisepeak Travels
-              organizes both local and international dive trips, and provides
-              Travel assistance around Sri Lanka. Owned and staffed by divers
-              with a passion for Travel and a love for Sri Lanka, Paradisepeak Travels
-              offers a range of internationally recognized PADI training courses
-              carried out by certified instructors.
+               ParadisePeak Travels curates unforgettable travel experiences across Sri Lanka and the Maldives. 
+              From luxury beach resorts to cultural excursions and wildlife adventures, we craft journeys tailored 
+              to your preferences. Our expert team ensures every trip is seamless, safe, and filled with memorable moments.
             </p>
             <p className="mt-4 text-gray-700 leading-relaxed text-justify">
-              All dive trips are led by dive masters with many years of
-              experience and in-depth knowledge of local dive sites. Our team
-              has expertise in wreck exploration, technical Travel, underwater
-              photography, and marine research — with extensive experience
-              Travel around Sri Lanka and beyond. Experience the hidden beauty
-              of Colombo, from shipwrecks to reefs teeming with marine life!
+              Whether it's discovering ancient temples, relaxing on pristine beaches, or exploring local traditions, 
+              ParadisePeak Travels brings you closer to the true essence of each destination. Let us turn your dream 
+              holiday into reality with personalized itineraries and exceptional service.
             </p>
           </div>
 
@@ -192,24 +185,24 @@ function About() {
         <section className="mt-16 md:mt-24">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4" data-aos="flip-up">
             {[
-              {
-                title: "Certified PADI Courses",
-                desc: "Learn Travel with internationally recognized PADI training, led by certified instructors.",
+             {
+                title: "Tailored Itineraries",
+                desc: "Custom travel plans designed for every preference and interest.",
                 icon: <FaStar className="text-[#01004b]" size={28} />,
               },
               {
-                title: "Guided Dive Trips",
-                desc: "Experience the best dive sites around Sri Lanka with our experienced divemasters.",
+                title: "Guided Tours",
+                desc: "Experience the best of each destination with expert local guides.",
                 icon: <FaUserFriends className="text-[#01004b]" size={28} />,
               },
               {
-                title: "Wreck & Reef Exploration",
-                desc: "Discover shipwrecks, coral reefs, and underwater life teeming with biodiversity.",
+                title: "Cultural & Nature Exploration",
+                desc: "Discover landmarks, wildlife, and hidden gems across Sri Lanka & Maldives.",
                 icon: <FaGlobe className="text-[#01004b]" size={28} />,
               },
               {
-                title: "Specialized Travel Activities",
-                desc: "Technical Travel, underwater photography, and marine research with expert guidance.",
+                title: "Sustainable Travel",
+                desc: "Eco-friendly and responsible tourism practices at the heart of our trips.",
                 icon: <FaLeaf className="text-[#01004b]" size={28} />,
               },
             ].map((item, idx) => (
@@ -233,28 +226,28 @@ function About() {
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-4">
             {[
-              {
+                {
                 title: "Passion for Travel",
-                desc: "We live and breathe travel—every journey crafted with care.",
-                img: "https://images.unsplash.com/photo-1602002418211-9d76470fa71f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                desc: "Every journey crafted with care and enthusiasm.",
+                img: "https://images.unsplash.com/photo-1602002418211-9d76470fa71f?q=80&w=1974&auto=format&fit=crop",
                 icon: <FaHeart />,
               },
               {
-                title: "Personal Service",
-                desc: "Your preferences lead the way to a truly personal adventure.",
+                title: "Personalized Service",
+                desc: "Tailored experiences to match your preferences.",
                 img: "https://www.100degreeseast.com/wp-content/uploads/2024/01/box_image18.jpg",
                 icon: <FaUserFriends />,
               },
               {
                 title: "Global Expertise",
-                desc: "Connections worldwide, experiences that feel wonderfully local.",
-                img: "https://images.unsplash.com/photo-1727610542348-9636c3b65d2a?q=80&w=1979&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                desc: "Local experiences enriched by worldwide connections.",
+                img: "https://images.unsplash.com/photo-1727610542348-9636c3b65d2a?q=80&w=1979&auto=format&fit=crop",
                 icon: <FaGlobe />,
               },
               {
                 title: "Sustainable Tourism",
-                desc: "Travel responsibly—protecting communities and wild places.",
-                img: "https://plus.unsplash.com/premium_photo-1726729348504-1d89d93a7f94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                desc: "Travel responsibly, protecting communities and wild places.",
+                img: "https://plus.unsplash.com/premium_photo-1726729348504-1d89d93a7f94?q=80&w=2070&auto=format&fit=crop",
                 icon: <FaLeaf />,
               },
             ].map((card, i) => (
@@ -279,17 +272,9 @@ function About() {
         <section className="mx-auto max-w-6xl px-6 py-16 border-t border-gray-200 mt-12" data-aos="fade-up">
           <h2 className="text-3xl text-[#01004b] text-center">Our History</h2>
           <p className="mt-6 text-gray-700 leading-relaxed text-justify">
-            Vincent Fernando, who took the first step for our establishment,
-            started Travel activities in Katunariya area for his business in
-            1988, and in 2009 he started the professional Travel center "Colombo
-            Divers" in Dehiwala. As a family run business, "Paradisepeak Travels"
-            quickly gained a high reputation by captivating customers with their
-            unique sea explorations and set up new centers in Maldives and
-            Sri Lanka as a wider business. Currently, Mr. Vincent's son, Mr.
-            Sherik Fernando, continues "Paradisepeak Travels" as a successful
-            business, and Paradisepeak Travels will continue to be with you in the
-            future with a number of high quality Travel courses that offer
-            certifications recognized worldwide.
+            ParadisePeak Travels started as a family-run venture, bringing unique and personalized travel experiences to Sri Lanka and the Maldives. 
+            Over the years, we have grown into a trusted travel company, recognized for exceptional service, tailored itineraries, and responsible tourism practices. 
+            Today, ParadisePeak Travels continues to deliver unforgettable journeys curated by experts who are passionate about showing you the best of every destination.
           </p>
         </section>
 
@@ -501,7 +486,7 @@ function About() {
               </p>
               <div className="mt-4 flex items-center justify-center gap-4">
                 <a
-                  href="https://www.instagram.com/colombodivers?igsh=MXV2MjlvZWw5bmZtOQ=="
+                  href="https://www.instagram.com/paradisepeaktravels?igsh=MTNoN3A3Y2gweG5uaQ%3D%3D&utm_source=qr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -510,7 +495,7 @@ function About() {
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://www.facebook.com/share/1A2w7AJzej/?mibextid=wwXIfr"
+                  href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -528,7 +513,7 @@ function About() {
                   <FaYoutube />
                 </a> */}
                 <a
-                  href="https://wa.me/94777367776?text=Hello%20there!%20I%20am%20interested%20in%20your%20Travel%20packages."
+                  href="https://wa.me/94773581241?text=Hello%20there!%20I%20am%20interested%20in%20your%20Travel%20packages."
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
@@ -545,8 +530,8 @@ function About() {
               </div>
               <h3 className="text-lg font-semibold">Call us</h3>
               <p className="mt-1 text-gray-600">
-                <a href="tel:+94777367776" className="text-[#003161]">
-                  +94 77 736 7776
+                <a href="tel:+94773581241" className="text-[#003161]">
+                  +94 77 358 1241
                 </a>
               </p>
             </div>
@@ -558,10 +543,10 @@ function About() {
               <h3 className="text-lg font-semibold">Email us</h3>
               <p className="mt-1 text-gray-600">
                 <a
-                  href="mailto:info@colombodivers.lk"
+                  href="mailto:info@paradisepeaktravels.com"
                   className="text-[#003161]"
                 >
-                  info@colombodivers.lk
+                  info@paradisepeaktravels.com
                 </a>
               </p>
             </div>
@@ -574,7 +559,7 @@ function About() {
               <p className="mt-1 text-gray-600">Maldives & Sri Lanka</p>
               <p className="mt-2">
                 <a
-                  href="https://maps.app.goo.gl/4bSZn42DixwWUz8b9?g_st=iwb"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#003161]"

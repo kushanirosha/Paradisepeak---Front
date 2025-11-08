@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaTag } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { packageService, Package } from "../services/packageService";
-import BgOffer from "../assets/img/Home/offer.webp";
+import BgOffer from "../assets/img/Home/offer.jpg";
 
 const SpecialOffers: React.FC = () => {
   const [offers, setOffers] = useState<Package[]>([]);
@@ -29,7 +29,7 @@ const SpecialOffers: React.FC = () => {
     }
   };
 
-  const getImageUrl = (imagePath?: string) => (imagePath ? `https://backend.colombodivers.lk${imagePath}` : "");
+  const getImageUrl = (imagePath?: string) => (imagePath ? `https://backend.paradisepeaktravels.com${imagePath}` : "");
 
   const getPackageImage = (pkg: Package) =>
     pkg.mainImage ? getImageUrl(pkg.mainImage) : pkg.images && pkg.images.length > 0 ? getImageUrl(pkg.images[0].url) : "";
@@ -48,12 +48,12 @@ const SpecialOffers: React.FC = () => {
       style={{ backgroundImage: `url(${BgOffer})` }}
     >
       {/* Overlay: allow pointer events to pass through */}
-      <div className="absolute inset-0 bg-[#00000080] pointer-events-none"></div>
+      {/* <div className="absolute inset-0 bg-[#00000080] pointer-events-none"></div> */}
 
       {/* Content must be above overlay */}
       <div className="relative max-w-7xl mx-auto text-center px-6 z-10">
         <motion.h2
-          className="text-4xl md:text-5xl mb-4"
+          className="text-4xl md:text-5xl font-bold mb-4"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -67,9 +67,7 @@ const SpecialOffers: React.FC = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          Dive into adventure and save more! Check out our limited-time travel
-          experiences and exclusive packages designed for explorers and
-          thrill-seekers.
+         Discover our limited-time travel offers and exclusive tour packages across Sri Lanka and the Maldives. Whether you crave adventure, culture, or relaxation, ParadisePeak Travels brings you unforgettable experiences at unbeatable prices
         </motion.p>
 
         {loading ? (

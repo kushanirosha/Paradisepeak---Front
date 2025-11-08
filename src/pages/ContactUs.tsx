@@ -19,48 +19,48 @@ function ContactUs() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
   const { t } = useTranslation();
 
-  const faqData = [
-    {
-      question: t("doINeedExperience"),
-      answer: t("doINeedExperienceAnswer"),
-    },
-    {
-      question: t("isEquipmentProvided"),
-      answer: t("isEquipmentProvidedAnswer"),
-    },
-    {
-      question: t("whatIsBestSeasonForTravel"),
-      answer: t("whatIsBestSeasonForTravelAnswer"),
-    },
-    {
-      question: t("canNonSwimmersJoin"),
-      answer: t("canNonSwimmersJoinAnswer"),
-    },
-    {
-      question: t("areYouPADIcertified"),
-      answer: t("areYouPADIcertifiedAnswer"),
-    },
-    {
-      question: t("whatShouldIBring"),
-      answer: t("whatShouldIBringAnswer"),
-    },
-    {
-      question: t("isSafetyEnsured"),
-      answer: t("isSafetyEnsuredAnswer"),
-    },
-    {
-      question: t("howToBookDive"),
-      answer: t("howToBookDiveAnswer"),
-    },
-    {
-      question: t("canIUseMyOwnGear"),
-      answer: t("canIUseMyOwnGearAnswer"),
-    },
-    {
-      question: t("whatIfBadWeather"),
-      answer: t("whatIfBadWeatherAnswer"),
-    },
-  ];
+const faqData = [
+  {
+    question: "Do I need prior travel experience?",
+    answer: "No prior travel experience is needed. Whether you're a first-time traveler or a seasoned explorer, our packages are designed for all levels.",
+  },
+  {
+    question: "Is equipment provided?",
+    answer: "All necessary travel essentials for activities included in the package are provided or coordinated for you. Just bring your personal items!",
+  },
+  {
+    question: "What is the best season for travel?",
+    answer: "The best time to visit Sri Lanka is from December to April, and the Maldives from November to April, offering sunny days and calm waters.",
+  },
+  {
+    question: "Can non-swimmers join?",
+    answer: "Yes! Our trips include both water-based and land-based activities, so non-swimmers are welcome and will have plenty to enjoy.",
+  },
+  {
+    question: "Are you certified?",
+    answer: "Our team is certified and trained to ensure safe and enjoyable travel experiences, with expert guides for adventure and cultural activities.",
+  },
+  {
+    question: "What should I bring?",
+    answer: "Bring comfortable clothing, sunscreen, swimwear, a hat, and your personal essentials. We’ll provide guidance for any activity-specific items.",
+  },
+  {
+    question: "Is safety ensured?",
+    answer: "Yes! Safety is our top priority. We follow local regulations, provide trained guides, and ensure safe accommodation and transport arrangements.",
+  },
+  {
+    question: "How do I book a trip?",
+    answer: "Booking is simple! Fill out our contact form, or call/email us directly. We'll tailor your travel itinerary and confirm your booking.",
+  },
+  {
+    question: "Can I use my own gear?",
+    answer: "For activities requiring gear, you may use your own if you prefer, otherwise all necessary equipment is provided as part of your package.",
+  },
+  {
+    question: "What if the weather is bad?",
+    answer: "In case of adverse weather, we offer alternative activities or reschedule parts of your itinerary to ensure you have a safe and enjoyable experience.",
+  },
+];
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
@@ -94,12 +94,12 @@ function ContactUs() {
                 <div>
                   <div className="font-semibold">Paradisepeak Travels (Pvt) Ltd</div>
                   <p className="opacity-90 text-sm">
-                    Topaz Beach Hotel, 21 Porutota Road, Maldives, Sri Lanka.
+                    Green house, Maafushi, Maldives..
                   </p>
                 </div>
                 <h3 className="text-xl mt-5 font-medium">Branch:</h3>
                 <p className="opacity-90 text-sm">
-                  Nilaveli Beach Road, Sri Lanka, Sri Lanka
+                  Jaya mawatha , Habarakada, Homagama, Sri Lanka
                 </p>
                 <div className="mt-4 text-sm opacity-90">
                   {t("OpeningHours")} <br /> {t("SriLankaTime")}
@@ -110,19 +110,19 @@ function ContactUs() {
                 <h3 className="text-xl mb-3 font-medium">{t("SocialMedia")}</h3>
                 <div className="flex space-x-5 mb-6 justify-center lg:justify-start text-lg">
                   <a
-                    href="https://www.instagram.com/colombodivers?igsh=MXV2MjlvZWw5bmZtOQ=="
+                    href="https://www.instagram.com/paradisepeaktravels?igsh=MTNoN3A3Y2gweG5uaQ%3D%3D&utm_source=qr"
                     className="text-white opacity-80 hover:opacity-200"
                   >
                     <FaInstagram />
                   </a>
                   <a
-                    href="https://www.facebook.com/share/1A2w7AJzej/?mibextid=wwXIfr"
+                    href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr"
                     className="text-white opacity-80 hover:opacity-200"
                   >
                     <FaFacebook />
                   </a>
                   <a
-                    href="https://wa.me/94777367776?text=Hello%20there!%20I%20am%20interested%20in%20your%20Travel%20packages."
+                    href="https://wa.me/94773581241?text=Hello%20there!%20I%20am%20interested%20in%20your%20Travel%20packages."
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
@@ -137,18 +137,18 @@ function ContactUs() {
                     <div className="font-semibold">{t("Email")}</div>
                     <div className="opacity-90">
                       <a
-                        href="mailto:info@colombodivers.lk"
+                        href="mailto:info@paradisepeaktravels.com"
                         className="hover:underline"
                       >
-                        info@colombodivers.lk
+                        info@paradisepeaktravels.com
                       </a>
                     </div>
                   </div>
                   <div>
                     <div className="font-semibold">{t("contact")}</div>
                     <div className="opacity-90">
-                      <a href="tel:+94777367776" className="hover:underline">
-                        +94 77 736 7776
+                      <a href="tel:+94773581241" className="hover:underline">
+                        +94 77 358 1241
                       </a>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ function ContactUs() {
               <input
                 type="hidden"
                 name="access_key"
-                value="d59e8a90-afea-4cac-a8f4-94543198cd6f"
+                value="e0f3ecc1-d704-4905-b9d3-67031a3c3d8c"
               />
 
               <div>

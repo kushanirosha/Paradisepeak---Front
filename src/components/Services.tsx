@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSwimmer, FaUserNinja, FaCameraRetro, FaMapMarkedAlt } from "react-icons/fa";
+import { FaSwimmer, FaUserNinja, FaCameraRetro, FaMapMarkedAlt, FaMountain, FaShip, FaUmbrellaBeach } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import DiveBeginner from "../assets/img/Home/Services/1.webp";
@@ -18,40 +18,40 @@ type Service = {
 
 const services: Service[] = [
   {
-    icon: <FaSwimmer size={36} className="text-[#000000]" />,
-    title: "Open Water Diver Course",
+    icon: <FaUmbrellaBeach size={36} className="text-[#000000]" />,
+    title: "Tropical Beach Escapes",
     description:
-      "Start your scuba Travel journey with the Open Water Diver certification. Learn essential techniques and dive up to 18 meters safely.",
-    features: ["PADI Certification", "6-Day Course", "All Equipment Included"],
+      "Relax and unwind on the golden beaches of Sri Lanka and the Maldives. Enjoy turquoise waters, luxury resorts, and breathtaking sunsets.",
+    features: ["5-Star Beach Resorts", "Private Transfers", "Customized Itineraries"],
     image: DiveBeginner,
-    alt: "Beginner diver training underwater",
+    alt: "Couple enjoying a beach sunset",
   },
   {
-    icon: <FaUserNinja size={36} className="text-[#000000]" />,
-    title: "Advanced Open Water Travel",
+    icon: <FaMountain size={36} className="text-[#000000]" />,
+    title: "Cultural & Nature Tours",
     description:
-      "Level up your Travel experience! Practice advanced techniques, explore deeper waters, and master buoyancy and navigation.",
-    features: ["Deep Dive Training", "Night Travel", "Underwater Navigation"],
+      "Explore Sri Lanka’s cultural heritage and natural wonders — from ancient temples and tea plantations to scenic highlands and waterfalls.",
+    features: ["Heritage Sites", "Local Guides", "Eco-Friendly Transport"],
     image: DiveAdvanced,
-    alt: "Advanced diver exploring the ocean depths",
+    alt: "Traveler exploring a mountain view in Sri Lanka",
   },
   {
-    icon: <FaCameraRetro size={36} className="text-[#000000]" />,
-    title: "Underwater Photography",
+    icon: <FaShip size={36} className="text-[#000000]" />,
+    title: "Island Hopping Adventures",
     description:
-      "Capture the magic of the underwater world. Learn composition, lighting, and camera handling techniques underwater.",
-    features: ["Photography Workshop", "Equipment Rental", "Editing Tips"],
+      "Discover multiple islands across the Maldives and Sri Lanka. Perfect for travelers seeking a blend of adventure, relaxation, and culture.",
+    features: ["Luxury Cruises", "Multiple Destinations", "All-Inclusive Packages"],
     image: DivePhoto,
-    alt: "Diver taking photos underwater",
+    alt: "Boat cruising between tropical islands",
   },
   {
     icon: <FaMapMarkedAlt size={36} className="text-[#000000]" />,
-    title: "Dive Exploration Tours",
+    title: "Tailor-Made Holiday Packages",
     description:
-      "Join our guided Travel tours to Sri Lanka’s best coral reefs and shipwrecks. Experience marine biodiversity like never before!",
-    features: ["Multiple Dive Spots", "Certified Guides", "Transport Included"],
+      "Create your dream vacation with ParadisePeak Travels. Choose destinations, activities, and accommodations that fit your style and budget.",
+    features: ["Custom Itineraries", "Expert Travel Planning", "24/7 Support"],
     image: DiveExplore,
-    alt: "Group of divers exploring coral reefs",
+    alt: "Traveler planning a trip with a map",
   },
 ];
 
@@ -71,7 +71,7 @@ const Services = () => {
           </h2>
           <p className="text-gray-600 max-w-full sm:max-w-md text-sm sm:text-base">
             Experience tailor-made Travel adventures designed for beginners and
-            experts alike — explore the beauty of Sri Lanka’s underwater world.
+            experts alike — explore the beauty of Maldives & Sri Lanka.
           </p>
         </div>
 
@@ -92,9 +92,8 @@ const Services = () => {
               <div
                 key={idx}
                 onMouseEnter={() => setHoverIndex(idx)}
-                className={`group border-b border-gray-200 pb-8 sm:pb-10 transition-all duration-300 ${
-                  idx === services.length - 1 ? "border-none pb-0" : ""
-                }`}
+                className={`group border-b border-gray-200 pb-8 sm:pb-10 transition-all duration-300 ${idx === services.length - 1 ? "border-none pb-0" : ""
+                  }`}
               >
                 {/* Header */}
                 <div className="flex items-start cursor-pointer">
@@ -108,11 +107,10 @@ const Services = () => {
 
                 {/* Expandable Content */}
                 <div
-                  className={`ml-10 overflow-hidden transition-all duration-500 ease-in-out ${
-                    hoverIndex === idx
+                  className={`ml-10 overflow-hidden transition-all duration-500 ease-in-out ${hoverIndex === idx
                       ? "max-h-[400px] opacity-100 translate-y-0"
                       : "max-h-0 opacity-0 -translate-y-2"
-                  }`}
+                    }`}
                 >
                   <p className="text-gray-600 text-sm sm:text-base mt-4 mb-3 leading-relaxed">
                     {service.description}

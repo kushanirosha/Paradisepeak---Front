@@ -29,7 +29,7 @@ const Contact = () => {
 
     try {
       const formData = new FormData();
-      formData.append("access_key", "d59e8a90-afea-4cac-a8f4-94543198cd6f"); 
+      formData.append("access_key", "e0f3ecc1-d704-4905-b9d3-67031a3c3d8c"); 
       formData.append("name", values.name);
       formData.append("email", values.email);
       formData.append("phonenumber", values.phonenumber);
@@ -67,7 +67,7 @@ const Contact = () => {
             Get in Touch with Paradisepeak Travels
           </h2>
           <p className="text-gray-600 mb-6 text-sm sm:text-base">
-            Whether you're planning your first dive or your next big adventure,
+            Whether you're planning your first journey or your next big adventure,
             our team is here to help you every step of the way.
           </p>
 
@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row sm:gap-12 gap-6 mb-6">
             <div>
               <a
-                href="https://maps.app.goo.gl/DaxksckP4tUKCZeJ9?g_st=iwb"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-[#00137e] hover:underline text-sm sm:text-base"
@@ -83,12 +83,12 @@ const Contact = () => {
                 <FaMapMarkerAlt /> Sri Lanka
               </a>
               <p className="ml-6 text-gray-700 text-xs sm:text-sm">
-                Nilaveli Beach Road, Sri Lanka, Sri Lanka
+                Jaya mawatha, Habarakada, Homagama.
               </p>
             </div>
             <div>
               <a
-                href="https://maps.app.goo.gl/4bSZn42DixwWUz8b9?g_st=iwb"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-[#00137e] hover:underline text-sm sm:text-base"
@@ -96,7 +96,7 @@ const Contact = () => {
                 <FaMapMarkerAlt /> Maldives
               </a>
               <p className="ml-6 text-gray-700 text-xs sm:text-sm">
-                Topaz Beach Hotel, 21 Porutota Road, Maldives, Sri Lanka
+                Green house, Maafushi, Maldives.
               </p>
             </div>
           </div>
@@ -108,10 +108,10 @@ const Contact = () => {
                 <FaPhoneAlt /> Hotline
               </div>
               <a
-                href="tel:+94112343456"
+                href="tel:+94773581241"
                 className="ml-6 text-gray-700 hover:underline text-xs sm:text-sm"
               >
-                +94 11 234 3456
+                +94 77 358 1241
               </a>
             </div>
             <div>
@@ -119,10 +119,10 @@ const Contact = () => {
                 <FaEnvelope /> Email
               </div>
               <a
-                href="mailto:info@colombodivers.lk"
+                href="mailto:info@paradisepeaktravels.com"
                 className="ml-6 text-gray-700 hover:underline text-xs sm:text-sm"
               >
-                info@colombodivers.lk
+                info@paradisepeaktravels.com
               </a>
             </div>
             <div>
@@ -141,7 +141,7 @@ const Contact = () => {
               Follow Us:
             </span>
             <a
-              href="https://www.facebook.com/share/1A2w7AJzej/?mibextid=wwXIfr"
+              href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#00137e] hover:text-blue-700 transition text-lg"
@@ -149,7 +149,7 @@ const Contact = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://www.instagram.com/colombodivers?igsh=MXV2MjlvZWw5bmZtOQ=="
+              href="https://www.instagram.com/paradisepeaktravels?igsh=MTNoN3A3Y2gweG5uaQ%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#00137e] hover:text-pink-600 transition text-lg"

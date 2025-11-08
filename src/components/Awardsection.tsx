@@ -10,27 +10,28 @@ interface Award {
 
 const awards: Award[] = [
   {
-    title: "Best Dive Center",
+    title: "Best Travel Experience Award",
     description:
-      "Awarded for providing world-class dive experiences and exceptional underwater safety standards.",
-    year: 2023,
+      "Recognized for delivering exceptional holiday experiences across Sri Lanka and the Maldives with unmatched service quality.",
+    year: 2024,
     iconUrl: "https://img.icons8.com/ios-filled/100/0077b6/trophy.png",
   },
   {
-    title: "Top Ocean Adventure Award",
+    title: "Excellence in Sustainable Tourism",
     description:
-      "Recognized for offering unforgettable marine adventures and sustainable dive practices.",
+      "Honored for promoting eco-friendly travel and supporting local communities through responsible tourism initiatives.",
+    year: 2023,
+    iconUrl: "https://img.icons8.com/ios-filled/100/0077b6/leaf.png",
+  },
+  {
+    title: "Top Island Getaway Provider",
+    description:
+      "Awarded for curating luxurious and memorable island escapes in the Maldives and Sri Lanka’s coastal regions.",
     year: 2022,
     iconUrl: "https://img.icons8.com/ios-filled/100/0077b6/medal.png",
   },
-  {
-    title: "Excellence in Marine Conservation",
-    description:
-      "Honored for our efforts in protecting coral reefs and educating divers about ocean preservation.",
-    year: 2021,
-    iconUrl: "https://img.icons8.com/ios-filled/100/0077b6/star.png",
-  },
 ];
+
 
 const AwardSection: React.FC = () => (
   <section className="py-24 bg-gradient-to-b from-[#e0f7ff] to-white">
@@ -39,7 +40,7 @@ const AwardSection: React.FC = () => (
         Our Awards & Achievements
       </h2>
       <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-        Over the years, our dive center has been recognized for excellence in safety, marine conservation, and creating unforgettable underwater journeys.
+        Over the years, ParadisePeak Travels has been celebrated for creating unforgettable travel experiences, promoting sustainable tourism, and delivering exceptional service across Sri Lanka and the Maldives.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

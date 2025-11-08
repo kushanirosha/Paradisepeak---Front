@@ -4,52 +4,54 @@ import T2 from "../assets/img/Home/Top/2.webp";
 import T3 from "../assets/img/Home/Top/3.webp";
 import T4 from "../assets/img/Home/Top/4.webp";
 import T5 from "../assets/img/Home/Top/5.webp";
-import T6 from "../assets/img/Home/Top/6.webp";
+import T6 from "../assets/img/Home/Top/5.webp";
 
 const diveLocations = [
   {
-    name: "Maha Gala",
-    depth: "14 meters",
+    name: "Sigiriya Rock Fortress",
+    location: "Central Sri Lanka",
     img: T1,
     description:
-      "A stunning coral-covered reef teeming with colorful marine life, perfect for intermediate divers.",
+      "Climb the ancient rock citadel of Sigiriya, a UNESCO World Heritage Site known for its breathtaking views and historic frescoes.",
   },
   {
-    name: "Uravi Gala",
-    depth: "16 meters",
+    name: "Ella Highlands",
+    location: "Uva Province, Sri Lanka",
     img: T2,
     description:
-      "Known for its clear visibility and vibrant schools of fish, this site offers a peaceful underwater escape.",
+      "Enjoy the misty mountains, tea plantations, and scenic train rides through Sri Lanka’s most picturesque highlands.",
   },
   {
-    name: "Godin Gala",
-    depth: "13 meters",
-    img: T3,
+    name: "Malé Atoll",
+    location: "Maldives",
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     description:
-      "A shallow reef ideal for beginners, featuring small caves and soft corals with plenty of sea turtles.",
+      "Experience the turquoise lagoons and white-sand islands of the Maldives. Perfect for snorkeling, island hopping, and relaxation.",
   },
   {
-    name: "Raja Gala",
-    depth: "15 meters",
+    name: "Galle Fort",
+    location: "Southern Sri Lanka",
     img: T4,
     description:
-      "A breathtaking dive site with rocky formations and colorful coral gardens, popular among photographers.",
+      "Step back in time as you walk the cobblestone streets of Galle Fort, a colonial-era landmark filled with charm and coastal beauty.",
   },
   {
-    name: "Dakune Gala",
-    depth: "15 meters",
+    name: "Mirissa Beach",
+    location: "Southern Sri Lanka",
     img: T5,
     description:
-      "Famous for its diverse marine biodiversity, from lionfish to moray eels hiding among coral crevices.",
+      "Famous for whale watching and golden sunsets, Mirissa offers the perfect balance of adventure and tranquility.",
   },
   {
-    name: "Goda Maha Gala",
-    depth: "15 meters",
-    img: T6,
+    name: "Vaadhoo Island",
+    location: "Raa Atoll, Maldives",
+    img: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
     description:
-      "A majestic underwater cliff offering a thrilling dive experience with large reef fish and sea fans.",
+      "Witness the magical 'Sea of Stars' phenomenon, where glowing plankton illuminate the shoreline at night — a truly unforgettable sight.",
   },
 ];
+
+
 
 const Topplace = () => {
   const topSix = diveLocations.slice(0, 6);
@@ -61,7 +63,7 @@ const Topplace = () => {
           Top Travel Destinations
         </h2>
         <p className="text-gray-600 mb-12">
-          Book a trip to one of Sri Lanka’s most breathtaking dive sites.
+          Book your next escape to Sri Lanka’s most breathtaking destinations.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

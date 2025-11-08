@@ -73,29 +73,24 @@ const Learnmore = () => {
           <div className="absolute top-[-12px] left-0 w-[50px] h-[2px] bg-[#000152]"></div>
 
           <h2 className="text-4xl sm:text-5xl md:text-[4rem] font-thin text-[#00087a] leading-tight mb-6 sm:mb-10">
-            Colombo
+            Paradisepeak
             <br />
-            <span className="font-normal">Divers</span>
+            <span className="font-normal">Travels</span>
           </h2>
 
           <div ref={revealRef}>
             <p
-              className={`text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-10 font-light transition-all duration-700 ease-out ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-10 font-light transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
             >
-              Where ocean meets excellence
+              Where Paradise Meets Perfection
             </p>
 
             <p
-              className={`text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed mb-8 sm:mb-20 font-normal max-w-full md:max-w-[90%] transition-all duration-1000 ease-out delay-200 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-              }`}
+              className={`text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed mb-8 sm:mb-20 font-normal max-w-full md:max-w-[90%] transition-all duration-1000 ease-out delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                }`}
             >
-              We are Sri Lanka's premier Travel center, offering world-class PADI
-              certified training and underwater expeditions. Our expert team
-              guides you through pristine coral reefs, historic shipwrecks, and
-              the vibrant marine ecosystems of the Indian Ocean.
+              We are Maldives’s premier travel company, crafting unforgettable journeys across Sri Lanka and the Maldives. From sun-kissed beaches to misty mountains and turquoise lagoons, ParadisePeak Travels curates world-class tour experiences tailored to your dreams. Our dedicated travel experts ensure every moment — from island escapes to cultural adventures — is filled with comfort, discovery, and excellence.
             </p>
           </div>
 
@@ -130,7 +125,7 @@ const Learnmore = () => {
                 {diversCount}+
               </span>
               <span className="text-xs sm:text-sm uppercase text-gray-500 tracking-[0.1em]">
-                Certified Divers
+                Satisfied Customers
               </span>
             </div>
             <div className="text-center">
@@ -138,7 +133,7 @@ const Learnmore = () => {
                 {sitesCount}+
               </span>
               <span className="text-xs sm:text-sm uppercase text-gray-500 tracking-[0.1em]">
-                Dive Sites
+                Locations
               </span>
             </div>
           </div>

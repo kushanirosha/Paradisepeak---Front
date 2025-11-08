@@ -1,5 +1,4 @@
 import React from "react";
-import LS from "../assets/img/Home/lastsec.webp";
 
 // Dummy responsive variables for demonstration. Replace with your own logic or hooks.
 const isMobile = window.innerWidth <= 768;
@@ -11,7 +10,7 @@ const Lastsection: React.FC = () => {
     <div data-aos="fade-up" style={{ 
       backgroundImage: `
         linear-gradient(135deg, rgba(180, 180, 180, 0.28) 0%, rgba(180, 180, 180, 0.28) 100%),
-        url(${LS})
+        url('https://images.unsplash.com/photo-1643856555886-76dca68e5322?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
       `,
       backgroundSize: "cover",
       backgroundPosition: "center",

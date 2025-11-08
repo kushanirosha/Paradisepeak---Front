@@ -62,8 +62,8 @@ const Nav2: React.FC<Nav2Props> = ({ sticky = true, className = "" }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between h-10 px-4 sm:px-0 text-sm font-medium">
         {/* LEFT: Hotline (Always visible) */}
         <div className="flex items-center gap-2 text-[#E7E7F3]">
-          <a href="tel:+94777367776" className="hover:text-white transition">
-            Hotline: +94 77 736 7776
+          <a href="tel:+94773581241" className="hover:text-white transition">
+            Hotline: +94 77 358 1241
           </a>
         </div>
 
@@ -72,7 +72,7 @@ const Nav2: React.FC<Nav2Props> = ({ sticky = true, className = "" }) => {
           {/* Social Icons */}
           <div className="flex items-center gap-4 text-[#E7E7F3]">
             <a
-              href="https://www.facebook.com/share/1A2w7AJzej/?mibextid=wwXIfr"
+              href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition"
@@ -80,7 +80,7 @@ const Nav2: React.FC<Nav2Props> = ({ sticky = true, className = "" }) => {
               <FaFacebookF />
             </a>
             <a
-              href="https://www.instagram.com/colombodivers?igsh=MXV2MjlvZWw5bmZtOQ=="
+              href="https://www.instagram.com/paradisepeaktravels?igsh=MTNoN3A3Y2gweG5uaQ%3D%3D&utm_source=qr"
               target="_blank"
               rel="noreferrer"
               className="hover:text-pink-400 transition"
