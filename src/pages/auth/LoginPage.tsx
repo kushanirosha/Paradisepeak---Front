@@ -42,6 +42,7 @@ function LoginPage() {
             localStorage.setItem('token', userData.token)
             localStorage.setItem('role', userData.role)
             localStorage.setItem('userid', userData.userid)
+            localStorage.setItem("email", userData.email);
             navigate('/packages')
             setSuccess(userData.data.message);
         }else{
