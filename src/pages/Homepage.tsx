@@ -87,7 +87,7 @@ function Homepage() {
         {/* title */}
             <div className="absolute inset-0 flex   font-kyiv items-center justify-center bg-black/40">
               <h1 className="text-white text-4xl font-bold">
-              Paradisepeak Travels
+              Paradise peak Travels
               </h1>
               <div className="text-white text-xl  font-bold items-center justify-center absolute pt-20">
               Book your Travel
@@ -126,14 +126,14 @@ function Homepage() {
             </div>
             <div className='mt-10 mx-20 font-kyiv text-2xl  font-bold '>
               <span className="text-[#55C1EF]">Welcome to </span>
-              <span className="bg-[linear-gradient(to_right,#364F95_38%,#11192F_90%)] bg-clip-text text-transparent">Paradisepeak Travels</span>
+              <span className="bg-[linear-gradient(to_right,#364F95_38%,#11192F_90%)] bg-clip-text text-transparent">Paradise peak Travels</span>
               <div className="max-w-4xl mx-auto  text-sm font-light  text-gray-700 leading-relaxed ">
                 <p className="mb-4">
-                  Paradisepeak Travels is the only recreational dive center offering Travel and dive
-                  training in Colombo. In addition, Paradisepeak Travels organizes both local and
+                  Paradise peak Travels is the only recreational dive center offering Travel and dive
+                  training in Colombo. In addition, Paradise peak Travels organizes both local and
                   international dive trips, and provides Travel assistance around Sri Lanka.
                   Owned and staffed by divers with a passion for Travel and a love for Sri
-                  Lanka, Paradisepeak Travels offers a range of internationally recognized PADI
+                  Lanka, Paradise peak Travels offers a range of internationally recognized PADI
                   training courses carried out by certified instructors.
                 </p>
 
@@ -487,12 +487,12 @@ function Homepage() {
                         </div>
                   <p className="text-gray-600 text-sm">
                   Fantastic coaching, value for money After searching for dive centres 
-                          I found the best one, Paradisepeak Travels! Super coaching, brilliant 
+                          I found the best one, Paradise peak Travels! Super coaching, brilliant 
                           communication both in and out of water, and I achieved a dream to 
-                          become a fiver thanks to Sherrik and the team at Paradisepeak Travels. 
+                          become a fiver thanks to Sherrik and the team at Paradise peak Travels. 
                           Don't waste your time web shopping for dive centres, this is the 
                           place, the best price and the best education. You will not regret 
-                          your decision to join Paradisepeak Travels, it is a best decision I made.
+                          your decision to join Paradise peak Travels, it is a best decision I made.
                   </p>
                 </div>
                 

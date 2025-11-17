@@ -34,8 +34,8 @@ const Contact = () => {
       formData.append("email", values.email);
       formData.append("phonenumber", values.phonenumber);
       formData.append("message", values.message);
-      formData.append("subject", "New Contact Message from Paradisepeak Travels");
-      formData.append("from_name", "Paradisepeak Travels Website");
+      formData.append("subject", "New Contact Message from Paradise peak Travels");
+      formData.append("from_name", "Paradise peak Travels Website");
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -64,7 +64,7 @@ const Contact = () => {
         {/* Left Info Section */}
         <div className="flex-1 min-w-0">
           <h2 className="text-2xl sm:text-3xl text-[#00137e] font-semibold mb-4">
-            Get in Touch with Paradisepeak Travels
+            Get in Touch with Paradise peak Travels
           </h2>
           <p className="text-gray-600 mb-6 text-sm sm:text-base">
             Whether you're planning your first journey or your next big adventure,

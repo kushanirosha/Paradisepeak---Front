@@ -299,11 +299,11 @@ const PackageDetails = () => {
             <div>
               <h4 className="font-semibold mb-2">Choose a Date</h4>
               <div className="flex items-center justify-between mb-3">
-                <button onClick={handlePrevMonth} className="text-blue-900 font-bold hover:bg-blue-50 px-3 py-1">Previous</button>
+                <button onClick={handlePrevMonth} className="text-blue-900 bg-gray-100 font-bold hover:bg-blue-100 px-3 py-1">Previous</button>
                 <div className="text-sm font-bold text-blue-900">
                   {monthNames[currentMonth]} {currentYear}
                 </div>
-                <button onClick={handleNextMonth} className="text-blue-900 font-bold hover:bg-blue-50 px-3 py-1">Next</button>
+                <button onClick={handleNextMonth} className="text-blue-900 bg-gray-100 font-bold hover:bg-blue-100 px-3 py-1">Next</button>
               </div>
 
               <div className="grid grid-cols-7 gap-1 text-center text-xs font-medium text-gray-600 mb-1">

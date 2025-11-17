@@ -39,7 +39,7 @@ function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between h-[70px] px-4 md:px-0">
           {/* Left: Logo */}
           <Link to="/" className="text-2xl text-[#0D1164] font-bold">
-            Paradisepeak Travels
+            Paradise peak Travels
           </Link>
 
           {/* Desktop: Navigation Links */}

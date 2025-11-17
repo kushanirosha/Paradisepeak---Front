@@ -48,7 +48,7 @@ const services: Service[] = [
     icon: <FaMapMarkedAlt size={36} className="text-[#000000]" />,
     title: "Tailor-Made Holiday Packages",
     description:
-      "Create your dream vacation with ParadisePeak Travels. Choose destinations, activities, and accommodations that fit your style and budget.",
+      "Create your dream vacation with Paradise Peak Travels. Choose destinations, activities, and accommodations that fit your style and budget.",
     features: ["Custom Itineraries", "Expert Travel Planning", "24/7 Support"],
     image: DiveExplore,
     alt: "Traveler planning a trip with a map",

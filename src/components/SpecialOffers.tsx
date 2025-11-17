@@ -67,7 +67,7 @@ const SpecialOffers: React.FC = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-         Discover our limited-time travel offers and exclusive tour packages across Sri Lanka and the Maldives. Whether you crave adventure, culture, or relaxation, ParadisePeak Travels brings you unforgettable experiences at unbeatable prices
+         Discover our limited-time travel offers and exclusive tour packages across Sri Lanka and the Maldives. Whether you crave adventure, culture, or relaxation, Paradise Peak Travels brings you unforgettable experiences at unbeatable prices
         </motion.p>
 
         {loading ? (

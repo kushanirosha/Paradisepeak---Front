@@ -34,10 +34,10 @@ const WhyChooseUs: React.FC = () => (
   <section className="py-24 bg-white">
     <div className="max-w-7xl mx-auto px-6 text-center">
       <h2 className="text-3xl text-[#00076b] mb-4">
-        Why Choose Paradisepeak Travels for Your Next Travel Adventure?
+        Why Choose Paradise peak Travels for Your Next Travel Adventure?
       </h2>
       <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-        With a commitment to professionalism, comfort, and unforgettable experiences, ParadisePeak Travels ensures every journey is a remarkable adventure across Sri Lanka and the Maldives.
+        With a commitment to professionalism, comfort, and unforgettable experiences, Paradise Peak Travels ensures every journey is a remarkable adventure across Sri Lanka and the Maldives.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-left">

@@ -43,7 +43,7 @@ const Index = () => {
 			>
 				<div style={{ textAlign: "center", color: "#fff", marginBottom: "40px" }}>
 					<h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textShadow: "2px 2px 8px #000" }}>
-						Paradisepeak Travels
+						Paradise peak Travels
 					</h1>
 					<h2 style={{ fontWeight: "normal", fontSize: "1.5rem", textShadow: "1px 1px 6px #000" }}>
 						Book your Travel

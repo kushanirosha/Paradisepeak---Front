@@ -92,7 +92,7 @@ const faqData = [
               <div className="mb-10">
                 <h3 className="text-xl mb-3 font-medium">{t("Location")}:</h3>
                 <div>
-                  <div className="font-semibold">Paradisepeak Travels (Pvt) Ltd</div>
+                  <div className="font-semibold">Paradise peak Travels (Pvt) Ltd</div>
                   <p className="opacity-90 text-sm">
                     Green house, Maafushi, Maldives..
                   </p>

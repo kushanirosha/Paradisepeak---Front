@@ -117,13 +117,13 @@ function About() {
               Explore the Wonders of Sri Lanka & Maldives
             </h1>
             <p className="mt-5 text-gray-700 leading-relaxed text-justify">
-               ParadisePeak Travels curates unforgettable travel experiences across Sri Lanka and the Maldives. 
+               Paradise Peak Travels curates unforgettable travel experiences across Sri Lanka and the Maldives. 
               From luxury beach resorts to cultural excursions and wildlife adventures, we craft journeys tailored 
               to your preferences. Our expert team ensures every trip is seamless, safe, and filled with memorable moments.
             </p>
             <p className="mt-4 text-gray-700 leading-relaxed text-justify">
               Whether it's discovering ancient temples, relaxing on pristine beaches, or exploring local traditions, 
-              ParadisePeak Travels brings you closer to the true essence of each destination. Let us turn your dream 
+              Paradise Peak Travels brings you closer to the true essence of each destination. Let us turn your dream 
               holiday into reality with personalized itineraries and exceptional service.
             </p>
           </div>
@@ -272,9 +272,9 @@ function About() {
         <section className="mx-auto max-w-6xl px-6 py-16 border-t border-gray-200 mt-12" data-aos="fade-up">
           <h2 className="text-3xl text-[#01004b] text-center">Our History</h2>
           <p className="mt-6 text-gray-700 leading-relaxed text-justify">
-            ParadisePeak Travels started as a family-run venture, bringing unique and personalized travel experiences to Sri Lanka and the Maldives. 
+            Paradise Peak Travels started as a family-run venture, bringing unique and personalized travel experiences to Sri Lanka and the Maldives. 
             Over the years, we have grown into a trusted travel company, recognized for exceptional service, tailored itineraries, and responsible tourism practices. 
-            Today, ParadisePeak Travels continues to deliver unforgettable journeys curated by experts who are passionate about showing you the best of every destination.
+            Today, Paradise Peak Travels continues to deliver unforgettable journeys curated by experts who are passionate about showing you the best of every destination.
           </p>
         </section>
 
@@ -369,7 +369,7 @@ function About() {
               <div className="absolute inset-0 bg-black/40" />
               <div className="absolute inset-0 flex items-end p-6 text-white">
                 <p className="text-sm md:text-base">
-                  “Traveling alone can be intimidating, but with Paradisepeak Travels
+                  “Traveling alone can be intimidating, but with Paradise peak Travels
                   I felt embraced. Staff remembered my name and preferences and
                   even suggested a local market that became the highlight of my
                   trip.”
@@ -384,7 +384,7 @@ function About() {
             >
               <div className="text-5xl font-bold text-[#01004b]">80%</div>
               <p className="mt-2 text-center text-gray-700 text-sm font-medium">
-                of customers recommend Paradisepeak Travels for the best experiences
+                of customers recommend Paradise peak Travels for the best experiences
               </p>
             </div>
 

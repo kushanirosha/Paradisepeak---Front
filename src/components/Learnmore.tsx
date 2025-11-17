@@ -90,7 +90,7 @@ const Learnmore = () => {
               className={`text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed mb-8 sm:mb-20 font-normal max-w-full md:max-w-[90%] transition-all duration-1000 ease-out delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                 }`}
             >
-              We are Maldives’s premier travel company, crafting unforgettable journeys across Sri Lanka and the Maldives. From sun-kissed beaches to misty mountains and turquoise lagoons, ParadisePeak Travels curates world-class tour experiences tailored to your dreams. Our dedicated travel experts ensure every moment — from island escapes to cultural adventures — is filled with comfort, discovery, and excellence.
+              We are Maldives’s premier travel company, crafting unforgettable journeys across Sri Lanka and the Maldives. From sun-kissed beaches to misty mountains and turquoise lagoons, Paradise Peak Travels curates world-class tour experiences tailored to your dreams. Our dedicated travel experts ensure every moment — from island escapes to cultural adventures — is filled with comfort, discovery, and excellence.
             </p>
           </div>
 

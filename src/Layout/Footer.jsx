@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 text-xs sm:text-sm">
           <div className="mb-3 sm:mb-0 text-blue-900 font-semibold">
-            Paradisepeak Travels (Pvt) Ltd
+            Paradise peak Travels (Pvt) Ltd
           </div>
           <div className="flex space-x-3 text-lg sm:text-xl">
             <a href="https://www.facebook.com/share/1SJZwyLmAH/?mibextid=wwXIfr" className="text-blue-900 hover:text-blue-700" aria-label="Facebook"><FaFacebookF /></a>
@@ -123,7 +123,7 @@ const Footer = () => {
             <a href="#" className="hover:underline">Terms of Service</a>
             <a href="#" className="hover:underline">Cookie Policy</a>
           </div>
-          <div>&copy; 2025 Paradisepeak Travels (Pvt) Ltd. All rights reserved</div>
+          <div>&copy; 2025 Paradise peak Travels (Pvt) Ltd. All rights reserved</div>
         </div>
       </div>
     </footer>

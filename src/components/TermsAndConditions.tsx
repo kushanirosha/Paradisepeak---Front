@@ -33,14 +33,14 @@ const TermsAndConditions: React.FC = () => {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-xl font-semibold mb-4">Introduction</h2>
             <p className="text-gray-700 mb-4">
-              Welcome to Paradisepeak Travels (Pvt) Ltd. By using our services, you agree
+              Welcome to Paradise peak Travels (Pvt) Ltd. By using our services, you agree
               to comply with and be bound by the following terms and conditions.
             </p>
 
             <h2 className="text-xl font-semibold mb-4">Booking & Payment</h2>
             <p className="text-gray-700 mb-4">
               All bookings must be confirmed with full payment. Payment slips
-              should be uploaded as proof of payment. Paradisepeak Travels (Pvt) Ltd is
+              should be uploaded as proof of payment. Paradise peak Travels (Pvt) Ltd is
               not responsible for delays caused by banks or other payment
               methods.
             </p>
@@ -57,7 +57,7 @@ const TermsAndConditions: React.FC = () => {
 
             <h2 className="text-xl font-semibold mb-4">Liability</h2>
             <p className="text-gray-700 mb-4">
-              Paradisepeak Travels (Pvt) Ltd is not responsible for any losses, damages, or
+              Paradise peak Travels (Pvt) Ltd is not responsible for any losses, damages, or
               inconveniences caused during travel or due to unforeseen events.
             </p>
 

@@ -83,7 +83,7 @@ function LoginPage() {
             <div className="w-10 h-10  rounded-full flex items-center justify-center">
               <img src={Logo} alt="Logo" className="rounded-full" />
             </div>
-            <span className="text-white text-xl font-semibold ml-3">Paradisepeak Travels</span>
+            <span className="text-white text-xl font-semibold ml-3">Paradise peak Travels</span>
           </div>
 
           <div className="absolute bottom-12 left-8 text-white max-w-sm">
@@ -124,7 +124,7 @@ function LoginPage() {
                 <div className="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center">
                   <img src="/Logo/Logo.png" alt="Logo" className="w-5 h-5" />
                 </div>
-                <span className="text-gray-900 font-semibold ml-2">Paradisepeak Travels</span>
+                <span className="text-gray-900 font-semibold ml-2">Paradise peak Travels</span>
               </div>
               <Link 
                 to="/signup"
@@ -136,7 +136,7 @@ function LoginPage() {
             </div>
             
             <h2 className="text-2xl font-bold text-gray-900 mb-1">
-              Welcome Back to Paradisepeak Travels!
+              Welcome Back to Paradise peak Travels!
             </h2>
             <p className="text-sm text-gray-600">
               Sign in to your account to continue

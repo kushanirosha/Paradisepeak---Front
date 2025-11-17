@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
           <motion.img
             key={images[currentIndex]}
             src={images[currentIndex]}
-            alt="Paradisepeak Travels"
+            alt="Paradise peak Travels"
             className="w-full h-full object-cover"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 1 }}
         >
           Discover Paradise with{" "}
-          <span className="text-cyan-400">Paradisepeak Travels</span>
+          <span className="text-cyan-400">Paradise peak Travels</span>
         </motion.h1>
         <motion.p
           className="text-lg md:text-xl mb-8 leading-relaxed text-gray-200"

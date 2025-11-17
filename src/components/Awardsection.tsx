@@ -40,7 +40,7 @@ const AwardSection: React.FC = () => (
         Our Awards & Achievements
       </h2>
       <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-        Over the years, ParadisePeak Travels has been celebrated for creating unforgettable travel experiences, promoting sustainable tourism, and delivering exceptional service across Sri Lanka and the Maldives.
+        Over the years, Paradise Peak Travels has been celebrated for creating unforgettable travel experiences, promoting sustainable tourism, and delivering exceptional service across Sri Lanka and the Maldives.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
