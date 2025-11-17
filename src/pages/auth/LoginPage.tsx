@@ -205,11 +205,11 @@ function LoginPage() {
 
           <div className="flex items-center my-4">
             <div className="flex-1 border-t border-gray-300"></div>
-            <span className="px-3 text-xs text-gray-500">Or continue with</span>
+            {/* <span className="px-3 text-xs text-gray-500">Or continue with</span> */}
             <div className="flex-1 border-t border-gray-300"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
+          {/* <div className="grid grid-cols-2 gap-3">
             <button className="flex items-center justify-center py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
               <div className="w-4 h-4 mr-2 flex items-center justify-center">
                 <svg viewBox="0 0 24 24" className="w-4 h-4">
@@ -225,7 +225,7 @@ function LoginPage() {
               <FaFacebookF className="text-blue-600 mr-2 text-sm" />
               <span className="text-xs font-medium text-gray-700">Facebook</span>
             </button>
-          </div>
+          </div> */}
 
           <p className="text-center text-xs text-gray-600 mt-6">
             Don't have any account?{' '}
