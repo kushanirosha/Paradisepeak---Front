@@ -177,8 +177,8 @@ const Bookings: React.FC = () => {
             <div className="mt-10 text-sm text-gray-600">
               <p>
                 Need help? Contact us at{" "}
-                <a href="tel:+94773581241" className="font-bold text-blue-900 hover:underline">
-                  +94 77 358 1241
+                <a href="tel:+94758109822" className="font-bold text-blue-900 hover:underline">
+                  +94 75 810 9822
                 </a>{" "}
                 or{" "}
                 <a href="mailto:info@paradisepeaktravels.com" className="font-bold text-blue-900 hover:underline">
@@ -187,8 +187,8 @@ const Bookings: React.FC = () => {
               </p>
               <p className="mt-3">
                 Please contact{" "}
-                <a href="tel:+94773581241" className="font-bold text-blue-900 hover:underline">
-                  +94 77 358 1241
+                <a href="tel:+94758109822" className="font-bold text-blue-900 hover:underline">
+                  +94 75 810 9822
                 </a>{" "}
                 for cancellation policy details.{" "}
                 <a href="/terms" target="_blank" className="font-bold text-blue-900 hover:underline">
@@ -366,8 +366,8 @@ const Bookings: React.FC = () => {
         <div className="text-center mt-12 text-gray-600 text-sm">
           <p>
             For any issues, please contact{" "}
-            <a href="tel:+94773581241" className="font-bold text-blue-900 hover:underline">
-              +94 77 358 1241
+            <a href="tel:+94758109822" className="font-bold text-blue-900 hover:underline">
+              +94 75 810 9822
             </a>{" "}
             or email{" "}
             <a href="mailto:info@paradisepeaktravels.com" className="font-bold text-blue-900 hover:underline">
@@ -376,8 +376,8 @@ const Bookings: React.FC = () => {
           </p>
           <p className="mt-3">
             Please contact{" "}
-            <a href="tel:+94773581241" className="font-bold text-blue-900 hover:underline">
-              +94 77 358 1241
+            <a href="tel:+94758109822" className="font-bold text-blue-900 hover:underline">
+              +94 75 810 9822
             </a>{" "}
             for cancellation policy details.{" "}
             <a href="/terms" target="_blank" className="font-bold text-blue-900 hover:underline">

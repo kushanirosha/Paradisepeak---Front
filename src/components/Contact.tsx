@@ -108,10 +108,10 @@ const Contact = () => {
                 <FaPhoneAlt /> Hotline
               </div>
               <a
-                href="tel:+94773581241"
+                href="tel:+94758109822"
                 className="ml-6 text-gray-700 hover:underline text-xs sm:text-sm"
               >
-                +94 77 358 1241
+                +94 75 810 9822
               </a>
             </div>
             <div>

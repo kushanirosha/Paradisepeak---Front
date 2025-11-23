@@ -62,8 +62,8 @@ const Nav2: React.FC<Nav2Props> = ({ sticky = true, className = "" }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between h-10 px-4 sm:px-0 text-sm font-medium">
         {/* LEFT: Hotline (Always visible) */}
         <div className="flex items-center gap-2 text-[#E7E7F3]">
-          <a href="tel:+94773581241" className="hover:text-white transition">
-            Hotline: +94 77 358 1241
+          <a href="tel:+94758109822" className="hover:text-white transition">
+            Hotline: +94 75 810 9822
           </a>
         </div>
 

@@ -259,8 +259,8 @@ const PackageDetails = () => {
               <h3 className="font-semibold">Cancellation Policy</h3>
               <p className="text-gray-600 mt-1">
                 Please contact{" "}
-                <a href="tel:+94773581241" className="text-blue-900 font-medium hover:underline">
-                  +94 77 358 1241
+                <a href="tel:+94758109822" className="text-blue-900 font-medium hover:underline">
+                  +94 75 810 9822
                 </a>{" "}
                 for cancellation policy details.{" "}
                 <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-blue-900 font-medium hover:underline">

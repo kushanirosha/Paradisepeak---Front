@@ -530,8 +530,8 @@ function About() {
               </div>
               <h3 className="text-lg font-semibold">Call us</h3>
               <p className="mt-1 text-gray-600">
-                <a href="tel:+94773581241" className="text-[#003161]">
-                  +94 77 358 1241
+                <a href="tel:+94758109822" className="text-[#003161]">
+                  +94 75 810 9822
                 </a>
               </p>
             </div>

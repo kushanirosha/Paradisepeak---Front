@@ -62,7 +62,7 @@ const FloatingHelp = () => {
           </div>
 
           <a
-            href="https://wa.me/94773581241?text=Hello%20I%20need%20help"
+            href="https://wa.me/94758109822?text=Hello%20I%20need%20help"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-2 rounded-md"

@@ -147,8 +147,8 @@ const faqData = [
                   <div>
                     <div className="font-semibold">{t("contact")}</div>
                     <div className="opacity-90">
-                      <a href="tel:+94773581241" className="hover:underline">
-                        +94 77 358 1241
+                      <a href="tel:+94758109822" className="hover:underline">
+                        +94 75 810 9822
                       </a>
                     </div>
                   </div>

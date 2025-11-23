@@ -55,7 +55,7 @@ const Footer = () => {
             </h3>
             <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
               <li><a href="mailto:info@paradisepeaktravels.com" className="hover:underline">Email: info@paradisepeaktravels.com</a></li>
-              <li><a href="tel:+94773581241" className="hover:underline">Phone: +94 77 358 1241</a></li>
+              <li><a href="tel:+94758109822" className="hover:underline">Phone: +94 75 810 9822</a></li>
               <li>
                 <a href="https://www.google.com/maps?q=Maldives,+Sri+Lanka" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   Address: Green house, Maafushi, Maldives.

@@ -49,8 +49,8 @@ const TermsAndConditions: React.FC = () => {
             <p className="text-gray-700 mb-4">
               Cancellations must be made at least 48 hours before the booked date.
               Please contact our support team at{" "}
-              <a href="tel:+94773581241" className="text-blue-900 hover:underline">
-                +94 77 358 1241
+              <a href="tel:+94758109822" className="text-blue-900 hover:underline">
+                +94 75 810 9822
               </a>{" "}
               for assistance. Terms and conditions apply.
             </p>
